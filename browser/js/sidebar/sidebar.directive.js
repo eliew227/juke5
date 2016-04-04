@@ -1,3 +1,5 @@
+'use strict';
+
 juke.directive('sidebar', function () {
 	return {
 		restrict: 'E',

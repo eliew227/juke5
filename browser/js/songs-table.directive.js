@@ -5,6 +5,7 @@ juke.directive('songsTable', function (PlayerFactory) {
 		scope: {
 			songs: '='
 		},
+		// can also use controller function instead of link function
 		link: function (scope) {
 			angular.extend(scope, PlayerFactory);
 
